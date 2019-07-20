@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#awal-keterangan {
+    text-align: center;
+    margin: 60px auto;
+}
+
+#awal-keterangan h4 {
+    padding: 10px 0;
+}
+
+.logo-pilihan i {
+    background-color: rgb(247, 128, 30);
+    font-size: 60px;
+    color: bisque;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+#pembelajaran {
+    background-color: #eee;
+}
+
+#pembelajaran-container {
+    padding: 40px 10px;
+}
+
+#about {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#about span {
+    font-weight: bold;

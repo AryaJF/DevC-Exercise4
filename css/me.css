@@ -1,0 +1,188 @@
+body {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 18px 0;
+    width: 100%;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #3071a9;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -14px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #367ebd;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #3071a9;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    border-width: 16px 0;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #2a6495;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #3071a9;
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+
+input[type=range]::-ms-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #3071a9;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #367ebd;
+}
+
+#the-border {
+    background-color: rgb(23, 149, 71);
+    margin: 30px 0;
+    padding: 5px 50px;
+}
+
+#end-border {
+    background-color: rgb(23, 149, 71);
+    margin: 100px 0 0;
+    padding: 40px 50px;
+    border-radius: 6px 6px 0 0;
+}
+
+.header-biodata {
+    background-color: rgb(23, 149, 71) !important;
+    color: #fff;
+    margin: 20px 0 0;
+    border-radius: 6px 6px 0 0;
+    padding: 20px 0 180px;
+}
+
+.header-biodata .container-fluid {
+    padding: 0;
+}
+
+.header-biodata #header {
+    background-color: rgb(27, 129, 155);
+    margin: 0;
+    padding: 10px 40px 10px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-biodata #body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-biodata #body img {
+    float: left;
+    width: 200px;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+
+.header-biodata #body h2 {
+    text-align: right;
+    font-size: 70px;
+    margin: 40px 135px 20px 0;
+}
+
+.header-biodata #body h3 {
+    font-size: 40px;
+    text-align: right;
+    margin-right: 140px;
+}
+
+.body-biodata {
+    margin: 0;
+    border-radius: 0 0 6px;
+    padding: 20px 0;
+}
+
+.body-biodata .subject {
+    font-size: 40px;
+    padding-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body-biodata .content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body-biodata .content ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.body-biodata .content ul li {
+    font-size: 25px;
+    margin: 10px 0;
+}
